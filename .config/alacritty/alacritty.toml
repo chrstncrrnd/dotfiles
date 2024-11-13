@@ -1,5 +1,5 @@
 [general]
-import = ["~/.config/alacritty/themes/themes/nord.toml"]
+import = ["$HOME/.config/alacritty/themes/themes/nord.toml"]
 
 [window]
 dimensions = { columns = 100, lines = 35 }
@@ -10,4 +10,4 @@ size = 12.0
 normal = { family = "JetBrainsMono Nerd Font" }
 
 [terminal]
-shell = "zellij"
+shell = {program = "zellij", args = ["--shell", "zsh"]}
