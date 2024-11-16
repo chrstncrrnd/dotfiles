@@ -1,13 +1,14 @@
-[general]
-import = ["$HOME/.config/alacritty/themes/themes/nord.toml"]
+import = ["~/.config/alacritty/alacritty-theme/themes/nord.toml",]
+
+[shell]
+program = "/usr/local/bin/zellij"
 
 [window]
-dimensions = { columns = 100, lines = 35 }
-
+blur = true
+opacity = 0.85
+decorations = "Buttonless"
 
 [font]
-size = 12.0
-normal = { family = "JetBrainsMono Nerd Font" }
+size = 13
+normal = {family = "JetBrainsMono Nerd Font"}
 
-[terminal]
-shell = {program = "zellij"}
