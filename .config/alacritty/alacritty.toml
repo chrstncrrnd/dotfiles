@@ -1,8 +1,8 @@
 [general]
-import = ["~/.config/alacritty/themes/themes/nord.toml",]
+import = ["~/.config/alacritty/themes/themes/vesper.toml",]
 
 [terminal.shell]
-program = "/usr/local/bin/zellij"
+program = "zellij"
 
 [font]
 size = 13
