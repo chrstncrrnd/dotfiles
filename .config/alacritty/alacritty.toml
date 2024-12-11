@@ -8,3 +8,5 @@ program = "zellij"
 size = 13
 normal = {family = "JetBrainsMono Nerd Font"}
 
+[window]
+dimensions = { columns = 133, lines = 30 }
