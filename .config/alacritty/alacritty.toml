@@ -1,5 +1,5 @@
 [general]
-import = ["~/.config/alacritty/themes/themes/vesper.toml",]
+import = ["~/.config/alacritty/themes/themes/thelovelace.toml",]
 
 [terminal.shell]
 program = "zellij"
