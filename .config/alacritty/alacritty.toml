@@ -1,9 +1,6 @@
 [general]
 import = ["~/.config/alacritty/themes/themes/thelovelace.toml",]
 
-[terminal.shell]
-program = "zellij"
-
 [font]
 size = 13
 normal = {family = "JetBrainsMono Nerd Font"}
