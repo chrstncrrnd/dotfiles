@@ -13,6 +13,7 @@ alias h='cd ~'
 alias change-java="sudo update-alternatives --config java"
 alias hx="helix"
 alias sendtopc="deno run --allow-all /home/chrstn/code/javascript/send_to_pc/main.ts"
+alias firefox="flatpak run org.mozilla.firefox"
 
 delete() {
 	echo "Are you sure you want to delete the file $1? [Y]es, [N]o "
