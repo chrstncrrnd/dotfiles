@@ -1,5 +1,5 @@
 [general]
-import = ["~/.config/alacritty/themes/themes/thelovelace.toml",]
+import = ["~/.config/alacritty/themes/themes/catppuccin.toml",]
 
 [font]
 size = 13
