@@ -17,5 +17,7 @@ Configs:
 - Tmux
 - Waybar
 - Zellij
-- Wofi (Custom config)
-!(Wofi config)["images/wofi.png"]
+- Wofi
+
+## Includes custom wofi css:
+![Wofi config](./images/wofi.png)
