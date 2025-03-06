@@ -1,8 +1,8 @@
 [general]
-import = ["~/.config/alacritty/themes/themes/catppuccin.toml",]
+import = ["~/.config/alacritty/themes/themes/tokyo_night.toml",]
 
 [font]
-size = 13
+size = 15
 normal = {family = "JetBrainsMono Nerd Font"}
 
 [env]

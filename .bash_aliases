@@ -15,22 +15,3 @@ alias hx="helix"
 alias sendtopc="deno run --allow-all /home/chrstn/code/javascript/send_to_pc/main.ts"
 alias firefox="flatpak run org.mozilla.firefox"
 
-delete() {
-	echo "Are you sure you want to delete the file $1? [Y]es, [N]o "
-	read userinput
-	if [ $userinput == "y" ];	
-	then
-		command rm -rf $1
-	else
-		echo "Aborted"	
-	fi
-}
-
-rm(){
-	trash "$1"
-}
-
-paper() {
-	java -jar "$1" --nogui
-}
-
