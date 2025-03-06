@@ -7,3 +7,15 @@ git clone https://github.com/chrstncrrnd/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow . --adopt
 ``` 
+
+
+Configs:
+- Hyprland
+- Alacritty (Using alacritty-theme)
+- Helix
+- Neovim
+- Tmux
+- Waybar
+- Zellij
+- Wofi (Custom config)
+!(Wofi config)["images/wofi.png"]
